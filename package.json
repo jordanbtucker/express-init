@@ -11,7 +11,6 @@
   },
   "scripts": {
     "coverage": "npm test && tap --coverage-report=html",
-    "debug": "cross-env DEBUG=* npm start",
     "lint": "eslint --fix .",
     "start": "node lib",
     "test": "npm run lint && tap test -Rspec --cov"
@@ -31,7 +30,6 @@
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
-    "debug": "^4.1.1",
     "dotenv": "^6.2.0",
     "errorhandler": "^1.5.0",
     "express": "^4.16.4",
